@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+.carousel-item {
+    width: 1400px;
+    height: 600px;
+}
+.dropdown-toggle{
+    background: transparent;
+    color: #bbbbbb;
+}
+.dropdown ul{
+    background: #24252b;
+    color: #bbbbbb;
+    list-style: none;
+    text-decoration: none;
+}
+.dropdown-menu li{
+    background: #24252b;
+    color: #bbbbbb;
+}
+.dropdown-menu li a{
+    text-decoration: none;
+    color: #bbbbbb;
+}
+/* .navbar {
+    height: 80px;
+    width: 100%; 
+}*/
+@media all and(max-width:600px) {
+    .navbar {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+.nav-item {
+    margin: 2.5px;
+}
+
+.welcome {
+    width: 50%;
+    margin: 0px;
+    padding-top: 195px;
+    padding-bottom: 0px;
+    padding-left: 38.5%;
+    padding-right: 400px;
+    color: black;
+}
+
+.title {
+    margin: 0px;
+    padding: 5%;
+    padding-left: 5%;
+    color: black;
+}
+.slide-left{
+    animation: slide-left 1s linear forwards;
+}
+@keyframes slide-left {
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+h1.slide-left{
+    animation-delay: 0.8s;
+}
+h4.slide-left{
+    animation-delay: 1.4s;
+}
+
+@media all and (max-width:1000px) {
+    .welcome {
+        padding-top: 130px;
+        padding-left: 270px;
+        padding-right: 150px;
+    }
+
+    .title {
+        padding-left: 275px;
+        padding-right: 150px;
+    }
+}
+
+@media all and (max-width:600px) {
+    .welcome {
+        padding-left: 220px;
+        padding-right: 150px;
+    }
+
+    .title {
+        padding-left: 220px;
+        padding-right: 150px;
+        width: 100%;
+    }
+}
+@media all and (max-width:600px) {
+    .welcome {
+        padding-left: 170px;
+        padding-right: 150px;
+    }
+
+    .title {
+        padding-left: 170px;
+        padding-right: 150px;
+        width: 100%;
+    }
+}
+
+.row {
+    padding: 5%;
+}
+
+.videoediting {
+    text-align: center;
+}
+
+.photoediting {
+    text-align: center;
+}
+
+.webdesign {
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+.courses {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline overline 3px black;
+    /* text-decoration:overline black; */
+    border: 3px;
+    text-align: center;
+    padding-top: 1%;
+
+}
+
+
+
+.social-icon {
+    padding: 5px;
+}
+
+.pheading {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+/* <!--footer-----> */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 350px; */
+}
+
+#footer {
+    /* height: 100vh; */
+    background: #24252b;
+    /* padding: 70px 0; */
+}
+
+.footer-col {
+    width: 800px;
+    margin-left: 10%;
+    margin-right: 5%;
+    /* padding: 0 15px; */
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font: size 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+
+}
+
+.fa-video {
+    color: darkorange;
+}
+
+.fa-photo-film {
+    color: darkred;
+}
+
+.fa-globe {
+    color: tomato;
+}
+
+.fa-facebook {
+    color: rgb(48, 48, 233);
+}
+
+.fa-whatsapp {
+    color: rgb(36, 180, 36);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-linkedin {
+    color: rgb(9, 99, 134);
+}
+
+.fa-cubes {
+    color: yellow;
+}
+
+.fa-gem {
+    color: #e91e63;
+}
+
+.fa-user-group {
+    color: aqua;
+}
+
+#email {
+    color: #bbbbbb;
+    text-align: center;
+}
+
+#feedback {
+    padding-left: 12%;
+}
+
+#textbox {
+    padding-left: 35%
+}
+
+.submitt {
+    display: block;
+    background-color: #e91e63;
+}
