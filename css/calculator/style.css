@@ -1,0 +1,212 @@
+.calculator_container {
+    width: 100%;
+    height: 500px;
+    padding-top: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: aquamarine;
+    background-size: cover;
+    background-color: transparent;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    color: #f70e0e;
+}
+.calculator_iphone {
+    background-color: #000;
+    border-radius: 20px;
+    padding: 5px;
+    height: 450px;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+#calculator_date {
+    width: 60px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 233px;
+    background-color: #1bdb3b;
+    color: hsl(59, 94%, 49%);
+    border: 2px solid white;
+    border-style: groove;
+}
+
+#calculator_time {
+    width: 60px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #1bdb3b;
+    color: hsl(59, 94%, 49%);
+    border: 2px solid white;
+    border-style: groove;
+}
+
+#calculator_time1 {
+    width: 80px;
+    height: 20px;
+    margin-left: 210px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    color: #f70e0e;
+    font-size: 20px;
+    overflow-y: hidden;
+    text-align: right;
+    resize: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2px 0px 0px 0px;
+}
+
+.calculator_input_display {
+    width: 288px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#calculator_input_number_preview {
+    width: 282px;
+    height: 30%;
+    margin-left: 15px;
+    margin-top: 15px;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    color: #120f35;
+    font-size: 20px;
+    overflow-y: hidden;
+    text-align: right;
+    resize: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 0px 0px 0px;
+}
+
+#calculator_input_number {
+    width: 280px;
+    height: 35%;
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    color: #120f35;
+    font-size: 40px;
+    overflow-y: hidden;
+    text-align: right;
+    resize: none;
+}
+
+.calculator_button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.calculator_button_left3_top {
+    display: inline-block;
+}
+
+.calculator_button_left3_top {
+    display: inline-flex;
+    margin-left: 0px;
+}
+
+.calculator_button_left_number1 {
+    display: inline-flex;
+}
+
+.calculator_button_left_number2 {
+    display: inline-flex;
+}
+
+.calculator_button_left_number3 {
+    display: inline-flex;
+}
+
+.calculator_button_bottom {
+    display: inline-flex;
+}
+
+.top {
+    margin: 25px 15px 0px 10px;
+
+    width: 50px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #49740C;
+    border: 3px solid #F14900;
+    color: #FF8400;
+}
+
+.first {
+    margin: 15px 15px 0px 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #6dd47e;
+    border: 3px solid #ffd55a;
+    color: #120f35;
+}
+
+.second {
+    margin: 15px 15px 0px 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #6dd47e;
+    border: 3px solid #ffd55a;
+    color: #120f35;
+}
+
+.third {
+    margin: 15px 15px 0px 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #6dd47e;
+    border: 3px solid #ffd55a;
+    color: #120f35;
+}
+
+.fourth {
+    margin: 15px 15px 15px 10px;
+
+    width: 125px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #3D155F;
+    border: 3px solid #DF678C;
+    color: #fff;
+}
+
+.fourth1 {
+    margin: 15px 15px 15px 7px;
+
+    width: 55px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #3D155F;
+    border: 3px solid #DF678C;
+    color: #fff;
+}
+
+.ao {
+    background-color: #f93800;
+    border: 3px solid #283350;
+    color: #ffb500;
+}

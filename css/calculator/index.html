@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="javascripts/index.js"></script>
+        <title>Calculator</title>
+
+</head>
+
+<body>
+        
+        <div class="calculator_container">
+                <div class="calculator_iphone">
+                        <button class="time" id="calculator_time" onclick="time()">TIME</button>
+                        
+                        <button class="date" id="calculator_date" onclick="date()">Date</button>
+                        <div class="calculator_input_display">
+                                <textarea cols="40" rows="7" id="calculator_input_number_preview"></textarea>
+                                <input type="text" id="calculator_input_number">
+                        </div>
+                        <div class="calculator_button">
+                                <!--left button-->
+                                <div class="calculator_button_left3">
+                                        <div class="calculator_button_left3_top">
+                                                <div class="calculator_button_fixedsize_top" id="calculator_input_ac"
+                                                        onclick="ac()"><button class="top">AC</button></div>
+                                                <div class="calculator_button_fixedsize_top" onclick="display('+/-')">
+                                                        <button class="top">+/-</button></div>
+                                                <div class="calculator_button_fixedsize_top" onclick="display('%')">
+                                                        <button class="top">%</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('/')">
+                                                        <button class="top ao">/</button></div>
+                                        </div>
+                                        <br>
+                                        <div class="calculator_button_left_number1">
+
+                                                <div class="calculator_button_fixedsize_number" onclick="display('7')">
+                                                        <button class="first">7</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('8')">
+                                                        <button class="first">8</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('9')">
+                                                        <button class="first">9</button></div>
+
+                                                <div class="calculator_button_fixedsize_number" onclick="display('*')">
+                                                        <button class="first ao">*</button></div>
+                                        </div>
+                                        <br>
+                                        <div class="calculator_button_left_number2">
+
+                                                <div class="calculator_button_fixedsize_number" onclick="display('4')">
+                                                        <button class="second">4</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('5')">
+                                                        <button class="second">5</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('6')">
+                                                        <button class="second">6</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('-')">
+                                                        <button class="second ao">-</button></div>
+                                        </div>
+                                        <br>
+                                        <div class="calculator_button_left_number3">
+
+                                                <div class="calculator_button_fixedsize_number" onclick="display('1')">
+                                                        <button class="third">1</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('2')">
+                                                        <button class="third">2</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('3')">
+                                                        <button class="third">3</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('+')">
+                                                        <button class="third ao">+</button></div>
+                                        </div>
+                                        <br>
+                                        <div class="calculator_button_bottom">
+                                                <div class="calculator_button_fixedsize_number"
+                                                        id="calculator_button_fixedsize_bottom_zero"
+                                                        onclick="display('0')"><button class="fourth1">0</button></div>
+                                                <div class="calculator_button_fixedsize_number" onclick="display('.')">
+                                                        <button class="fourth1">.</button></div>
+                                                <div class="calculator_button_fixedsize_number"
+                                                        onclick="displaySolve()"><button class="fourth">=</button></div>
+                                        </div>
+                                </div>
+
+
+
+
+                        </div>
+                </div>
+        </div>
+        </div>
+
+</body>
+
+</html>
